@@ -153,9 +153,9 @@ alias ohmyzsh="code ~/.oh-my-zsh"
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-if command -v thefuck &>/dev/null; then
-  eval $(thefuck --alias)
-fi
+# if command -v thefuck &>/dev/null; then
+#   eval $(thefuck --alias)
+# fi
 
 # Single ESC to clear line
 bindkey '\e' kill-whole-line
@@ -174,5 +174,5 @@ alias bzr="bazel run"
 alias bzb="bazel build"
 alias bzt="bazel test"
 
-eval $(thefuck --alias fuck)
-alias f="fuck"
+# eval $(thefuck --alias fuck)
+# alias f="fuck"
